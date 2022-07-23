@@ -1,0 +1,32 @@
+@import '../../scssVariables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.welcome-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(47, 164, 238);
+
+  img {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  font-family: $poppins;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.824);
+}
