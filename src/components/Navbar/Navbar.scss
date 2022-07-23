@@ -6,17 +6,30 @@
   box-sizing: border-box;
 }
 
+.hamburger {
+  display: none;
+}
+
 nav {
-  width: 100%;
+  width: 90%;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   font-family: $poppins;
   font-size: 0.8rem;
-  background-color: $dark-gray;
+  background-color: $orange;
   color: rgb(255, 255, 255);
-  box-shadow: 0 0 100px 10px black;
+  box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.44);
+  position: absolute;
+  left: 5%;
+  top: 3%;
+  border-radius: 1rem;
+}
+
+.totoro-icon {
+  height: 50px;
 }
 
 .logo-and-text {
@@ -36,19 +49,18 @@ nav {
 .links-list {
   display: flex;
   list-style: none;
-  gap: 1rem;
 }
 
 .link {
   color: rgb(255, 255, 255);
   text-decoration: none;
+  padding: 1rem;
   transition: 0.5s;
 }
 
 .link:hover {
   text-decoration: underline;
   text-underline-offset: 0.2rem;
-  color: $orange;
 }
 
 #my-profile {
@@ -64,4 +76,69 @@ nav {
 
 .link.active {
   text-decoration: underline;
+}
+
+@media(max-width:768px) {
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+
+  .hamburger {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  // haburguer animation
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .links-list {
+    position: fixed;
+    left: 100%;
+    top: 115px;
+    flex-direction: column;
+    background-color: $yellow;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    margin-left: 50%;
+    border-radius: 1rem 0 0 1rem;
+    padding: 0 1rem;
+  }
+
+  .links-list.active {
+    left: 0;
+  }
+
+  .link {
+    display: flex;
+    color: $dark-gray;
+  }
+
+  .links-list li {
+    border-bottom: rgba(255, 255, 255, 0.752) solid 1px;
+  }
+
+  .links-list li:last-child {
+    border-bottom: none;
+  }
 }
