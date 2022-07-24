@@ -1,0 +1,23 @@
+@import '../../scssVariables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.filter-input {
+  border: none;
+  padding: 1rem;
+  font-family: $poppins;
+  font-weight: 200;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  transition: 0.5s;
+}
+
+.filter-input:hover {
+  outline: white solid 1px;
+  outline-offset: 0.2rem;
+}

@@ -18,7 +18,7 @@ export default function Home() {
   console.log(filtered);
 
   return (
-    <>
+    <div className="homepage">
       <div className="welcome-container">
         <img src={mainImage} alt="logo and title" />
         <div className="main-text">
@@ -26,12 +26,15 @@ export default function Home() {
         </div>
       </div>
 
-      <Filter
-        films={films}
-        setFiltered={setFiltered}
-        activeDirector={activeDirector}
-        setActiveDirector={setActiveDirector}
-      />
+      <div className="filter-container">
+        <p className="filter-instruction">Filter by movie director</p>
+        <Filter
+          films={films}
+          setFiltered={setFiltered}
+          activeDirector={activeDirector}
+          setActiveDirector={setActiveDirector}
+        />
+      </div>
 
       <div className="film-list-container">
         <ul className="film-list">
@@ -62,6 +65,6 @@ export default function Home() {
 
         </ul>
       </div>
-    </>
+    </div>
   );
 }

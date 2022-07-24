@@ -23,7 +23,7 @@ export default function Filter({
 
   return (
 
-    <select name="director" ref={filterInput} onLoad={() => setActiveDirector(filterInput.current.value)} onChange={() => setActiveDirector(filterInput.current.value)} id="filteri">
+    <select className="filter-input" ref={filterInput} onChange={() => setActiveDirector(filterInput.current.value)} id="filteri">
       <option value="All Movies">All Movies</option>
       <option value="Hayao Miyazaki">Hayao Miyazaki</option>
       <option value="Isao Takahata">Isao Takahata</option>

@@ -2,6 +2,7 @@
 @import './components/Navbar/Navbar.scss';
 @import './components/People/People.scss';
 @import './components/Film/Film.scss';
+@import './components/Filter/Filter.scss';
 
 * {
   margin: 0;
@@ -14,7 +15,6 @@
 }
 
 .main {
-  border: red solid 1px;
   padding-top: 115px;
   height: 100%;
 }

@@ -1,20 +1,10 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import PropTypes from 'prop-types';
 
 export default function Film({
-  title, description, releaseDate,
+  image,
 }) {
   return (
-    <div className="film-container">
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <p>{releaseDate}</p>
-    </div>
+    <div className="film-container" style={{ backgroundImage: `url(${image})` }} />
   );
 }
-
-Film.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  releaseDate: PropTypes.string.isRequired,
-};
