@@ -1,0 +1,15 @@
+@import '../../scssVariables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.film-container {
+  border: yellow solid 1px;
+  width: 300px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}

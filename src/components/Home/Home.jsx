@@ -1,7 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import mainImage from '../../images/title-logo.png';
+import { getFilms } from '../../redux/films/films';
+import Film from '../Film/Film';
+import Filter from '../Filter/Filter';
 
 export default function Home() {
+  const dispatch = useDispatch();
+  const films = useSelector((state) => state.films);
+  const [filtered, setFiltered] = useState([]);
+  const [activeDirector, setActiveDirector] = useState('All Movies');
+
+  useEffect(() => {
+    dispatch(getFilms());
+  }, []);
+
+  console.log(filtered);
+
   return (
     <>
       <div className="welcome-container">
@@ -10,10 +25,41 @@ export default function Home() {
           <p className="app-descriprion">Here you can find all Studio Ghibli info about their films.</p>
         </div>
       </div>
+
+      <Filter
+        films={films}
+        setFiltered={setFiltered}
+        activeDirector={activeDirector}
+        setActiveDirector={setActiveDirector}
+      />
+
       <div className="film-list-container">
         <ul className="film-list">
-          <li>film2</li>
-          <li>film1</li>
+          {filtered.length === 0 && (
+
+            films.map((film) => (
+              <Film
+                key={film.id}
+                title={film.title}
+                image={film.image}
+                description={film.description}
+                releaseDate={film.release_date}
+              />
+            ))
+          )}
+          {filtered.length !== 0 && (
+
+            filtered.map((film) => (
+              <Film
+                key={film.id}
+                title={film.title}
+                image={film.image}
+                description={film.description}
+                releaseDate={film.release_date}
+              />
+            ))
+          )}
+
         </ul>
       </div>
     </>
