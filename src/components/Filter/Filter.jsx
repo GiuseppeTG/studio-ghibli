@@ -9,8 +9,6 @@ export default function Filter({
 }) {
   const filterInput = useRef();
 
-  console.log(`active director: ${activeDirector}`);
-
   useEffect(() => {
     if (activeDirector === 'All Movies') {
       setFiltered(films);

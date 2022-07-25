@@ -52,13 +52,18 @@
   display: flex;
 }
 
-
-
 .film-list {
   display: grid;
   width: 100%;
   padding: 1rem;
   justify-items: center;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.film-container {
+  width: 150px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
