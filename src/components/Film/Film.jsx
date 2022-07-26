@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { AiFillStar } from 'react-icons/ai';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 export default function Film({
   title,
@@ -30,6 +32,16 @@ export default function Film({
         <p className="movie-running-time">{`Running time: ${runningTime}`}</p>
         <p className="movie-director">{`Director: ${director}`}</p>
         <p className="movie-producer">{`Producer: ${producer}`}</p>
+        <div className="progress" style={{ width: 100, height: 100 }}>
+          <CircularProgressbar
+            value={rtScore}
+            text={`${rtScore}%`}
+            styles={buildStyles({
+              pathColor: '#0290ff',
+              textColor: 'black',
+            })}
+          />
+        </div>
       </div>
     </div>
   );
