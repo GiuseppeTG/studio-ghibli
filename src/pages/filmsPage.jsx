@@ -23,7 +23,6 @@ export default function FilmsPage() {
       rtScore={movie.rt_score}
       people={movie.people}
       filmUrl={movie.url}
-
     />
   );
 }

@@ -2,13 +2,13 @@ const ghibliAPI = 'https://ghibliapi.herokuapp.com';
 
 // actions
 
-const GET_CHARACTERS = 'redux/characters/characters/GET_CHARACTERS';
+const GET_PEOPLE = 'redux/people/people/GET_PEOPLE';
 
 // reducer
 
-export default function charactersReducer(state = [], action = {}) {
+export default function peopleReducer(state = [], action = {}) {
   switch (action.type) {
-    case GET_CHARACTERS:
+    case GET_PEOPLE:
       return action.payload;
     default:
       return state;
@@ -17,16 +17,16 @@ export default function charactersReducer(state = [], action = {}) {
 
 //  actions
 
-function getCharacters() {
+function getPeople() {
   return async (dispatch) => {
     // const response = await fetch('https://ghibliapi.herokuapp.com/people');
     const response = await fetch(`${ghibliAPI}/people`);
-    const characters = await response.json();
+    const people = await response.json();
     dispatch({
-      type: GET_CHARACTERS,
-      payload: characters,
+      type: GET_PEOPLE,
+      payload: people,
     });
   };
 }
 
-export { getCharacters };
+export { getPeople };

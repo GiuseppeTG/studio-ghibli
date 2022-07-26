@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { AiFillStar } from 'react-icons/ai';
-import CharacterList from '../CharacterList/CharacterList';
 
 export default function Film({
   title,
@@ -12,7 +11,6 @@ export default function Film({
   releaseDate,
   runningTime,
   rtScore,
-  people,
   description,
 }) {
   return (
@@ -28,21 +26,11 @@ export default function Film({
         </p>
         <p className="movie-original-title">{originalTitle}</p>
         <p className="movie-description">{description}</p>
-        <p className="movie-release-date">{releaseDate}</p>
-        <p className="movie-running-time">{runningTime}</p>
-        <p className="movie-director">{director}</p>
-        <p className="movie-producer">{producer}</p>
+        <p className="movie-release-date">{`Release date: ${releaseDate}`}</p>
+        <p className="movie-running-time">{`Running time: ${runningTime}`}</p>
+        <p className="movie-director">{`Director: ${director}`}</p>
+        <p className="movie-producer">{`Producer: ${producer}`}</p>
       </div>
-      <h2 className="main-characters-container">
-        {
-          people.map((character) => (
-            <CharacterList
-              key={character}
-              characterUrl={character}
-            />
-          ))
-        }
-      </h2>
     </div>
   );
 }
