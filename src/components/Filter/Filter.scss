@@ -14,7 +14,6 @@
   margin: 3rem auto 1rem auto;
   gap: 0.5rem;
   justify-content: center;
-  align-items: center;
   padding: 1rem 0;
 }
 
@@ -38,8 +37,7 @@
   background-color: $light-blue;
 }
 
-@media(max-width:768px) {
-
+@media (max-width: 768px) {
   .filter-instruction {
     font-size: 0.8rem;
   }

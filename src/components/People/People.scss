@@ -30,6 +30,7 @@
   border-radius: 0.2rem;
   border: $yellow solid 1px;
   transition: 0.5s;
+  color: $yellow;
 }
 
 .go-to-movie-button:hover {
@@ -40,17 +41,12 @@
   font-size: 1.5rem;
 }
 
-.go-to-movie-button {
-  color: $yellow;
-}
-
 .movie-button-link {
   text-decoration: none;
   color: $yellow;
 }
 
-@media(min-width:768px) {
-
+@media (min-width: 768px) {
   .character-container {
     font-size: 1rem;
   }

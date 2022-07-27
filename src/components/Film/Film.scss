@@ -71,9 +71,7 @@
   font-size: 0.8rem;
 }
 
-
-
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .movie-container {
     flex-direction: column;
   }
@@ -84,7 +82,6 @@
 
   .info-container {
     margin-top: 2rem;
-
   }
 }
 

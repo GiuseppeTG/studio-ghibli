@@ -20,16 +20,12 @@ export default function filmsReducer(state = [], action = {}) {
 
 function getFilms() {
   return async (dispatch) => {
-    try {
-      const response = await fetch(`${ghibliAPI}/films`);
-      const films = await response.json();
-      dispatch({
-        type: GET_FILMS,
-        payload: films,
-      });
-    } catch (error) {
-      console.log(error);
-    }
+    const response = await fetch(`${ghibliAPI}/films`);
+    const films = await response.json();
+    dispatch({
+      type: GET_FILMS,
+      payload: films,
+    });
   };
 }
 

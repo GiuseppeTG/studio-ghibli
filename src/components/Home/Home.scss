@@ -70,12 +70,11 @@
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.349);
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .film-list {
     gap: 0.25rem;
     padding: 0.25rem;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-
   }
 
   .film-container {
