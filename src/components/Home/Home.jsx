@@ -24,15 +24,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="filter-container">
-        <p className="filter-instruction">Filter by movie director</p>
-        <Filter
-          films={films}
-          setFiltered={setFiltered}
-          activeDirector={activeDirector}
-          setActiveDirector={setActiveDirector}
-        />
-      </div>
+      <Filter
+        films={films}
+        setFiltered={setFiltered}
+        activeDirector={activeDirector}
+        setActiveDirector={setActiveDirector}
+      />
 
       <div className="film-list-container">
         <ul className="film-list">

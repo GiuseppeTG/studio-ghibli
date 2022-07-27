@@ -10,6 +10,7 @@ export default function filmsReducer(state = [], action = {}) {
   switch (action.type) {
     case GET_FILMS:
       return action.payload;
+    // case `${GET_FILMS}/pending`:
     default:
       return state;
   }
@@ -19,13 +20,16 @@ export default function filmsReducer(state = [], action = {}) {
 
 function getFilms() {
   return async (dispatch) => {
-    // const response = await fetch('https://ghibliapi.herokuapp.com/films');
-    const response = await fetch(`${ghibliAPI}/films`);
-    const films = await response.json();
-    dispatch({
-      type: GET_FILMS,
-      payload: films,
-    });
+    try {
+      const response = await fetch(`${ghibliAPI}/films`);
+      const films = await response.json();
+      dispatch({
+        type: GET_FILMS,
+        payload: films,
+      });
+    } catch (error) {
+      console.log(error);
+    }
   };
 }
 

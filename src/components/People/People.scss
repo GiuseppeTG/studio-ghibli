@@ -1,5 +1,57 @@
+@import '../../scssVariables.scss';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.character-container {
+  width: 100%;
+  font-family: $poppins;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
+.go-to-movie-button {
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  font-family: $poppins;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 0.2rem;
+  border: $yellow solid 1px;
+  transition: 0.5s;
+}
+
+.go-to-movie-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.character-name {
+  font-size: 1.5rem;
+}
+
+.go-to-movie-button {
+  color: $yellow;
+}
+
+.movie-button-link {
+  text-decoration: none;
+  color: $yellow;
+}
+
+@media(min-width:768px) {
+
+  .character-container {
+    font-size: 1rem;
+  }
+
+  .character-name {
+    font-size: 1.5rem;
+  }
 }

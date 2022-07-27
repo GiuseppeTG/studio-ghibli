@@ -1,0 +1,33 @@
+@import '../../scssVariables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.people-list {
+  width: fit-content;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto auto;
+  list-style: none;
+  margin: 4rem auto;
+  box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.3);
+}
+
+.people-list li:nth-child(4n) {
+  background-color: $dark-blue;
+}
+
+.people-list li:nth-child(4n+1) {
+  background-color: $dark-blue;
+}
+
+.people-list li:nth-child(4n - 1) {
+  background-color: $mid-blue;
+}
+
+.people-list li:nth-child(4n - 2) {
+  background-color: $mid-blue;
+}
