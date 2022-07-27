@@ -34,6 +34,13 @@
   color: rgba(255, 255, 255, 0.824);
 }
 
+.home-results {
+  margin: 0 auto 1rem auto;
+  color: $yellow;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
 .film-list-container {
   display: flex;
 }
@@ -53,6 +60,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
+  border-radius: 0.5rem;
 }
 
 .film-container:hover {

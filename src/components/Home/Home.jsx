@@ -29,8 +29,10 @@ export default function Home() {
         setFiltered={setFiltered}
         activeDirector={activeDirector}
         setActiveDirector={setActiveDirector}
+        className="filter-component"
       />
 
+      <p className="home-results">{`Showing ${filtered.length} results`}</p>
       <div className="film-list-container">
         <ul className="film-list">
           {filtered.length === 0 && (
