@@ -1,56 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Studio Ghibli Movies
 
-> Description the project.
-
+> In this App I used Studio Ghibli API to render a list of movies that can be filtered by director name. You can see the details of each movie when you click on them. It also has a list of human characters with a short description and link to their movie.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML CSS/SASS JS 
+- Frameworks: React/Redux Jest
+- Technologies VSC, Git, GitHub, Gitflow, Chrome
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://glittering-meringue-ba1533.netlify.app)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+code editor and browser
 
 ### Install
+`npm i`
 
 ### Usage
+Click on movies to see their details.
 
 ### Run tests
+`npm test`
 
 ### Deployment
-
-
+`npm start`
 
 ## Authors
 
-👤 **Author1**
+👤 **Giuseppe Tomasini**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@GiuseppeTG](https://github.com/GiuseppeTG)
+- Twitter: [@giusetomasini](https://twitter.com/giusetomasini)
+- LinkedIn: [Giuseppe Tomasini](https://www.linkedin.com/in/giuseppe-tomasini-67ba101a8/)
 
 ## 🤝 Contributing
 
@@ -64,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspiration: Original design idea by Nelson Sakwa on Behance.
 
 ## 📝 License
 
