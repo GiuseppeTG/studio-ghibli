@@ -32,7 +32,7 @@ export default function Home() {
         className="filter-component"
       />
 
-      <p className="home-results">{`Showing ${filtered.length} results`}</p>
+      <p className="home-results">{filtered.length ? `Showing ${filtered.length} results` : 'Showing 22 results'}</p>
       <div className="film-list-container">
         <ul className="film-list">
           {filtered.length === 0 && (

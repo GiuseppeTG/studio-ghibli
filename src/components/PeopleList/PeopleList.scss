@@ -6,13 +6,25 @@
   box-sizing: border-box;
 }
 
+.people-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.people-title {
+  margin: 2rem auto 0 auto;
+  color: white;
+  font-family: $poppins;
+  font-weight: 300;
+}
+
 .people-list {
   width: fit-content;
   display: grid;
   justify-items: center;
   grid-template-columns: auto auto;
   list-style: none;
-  margin: 4rem auto;
+  margin: 2rem auto;
   box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.3);
 }
 

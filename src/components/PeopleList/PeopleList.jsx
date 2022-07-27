@@ -7,15 +7,16 @@ import './PeopleList.scss';
 export default function PeopleList() {
   const dispatch = useDispatch();
   const people = useSelector((state) => state.people);
-  console.log(people);
 
   useEffect(() => {
     dispatch(getPeople());
   }, []);
 
   return (
-    <ul className="people-list">
-      {
+    <section className="people-section">
+      <h2 className="people-title">Human Characters</h2>
+      <ul className="people-list">
+        {
       people.map((character) => (
         <li key={character.id} className="character-container">
           <People
@@ -29,6 +30,7 @@ export default function PeopleList() {
         </li>
       ))
     }
-    </ul>
+      </ul>
+    </section>
   );
 }
