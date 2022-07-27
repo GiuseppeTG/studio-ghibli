@@ -19,7 +19,7 @@ nav {
   padding: 0 2rem;
   font-family: $poppins;
   font-size: 0.8rem;
-  background-color: $orange;
+  background-color: $dark-blue;
   color: rgb(255, 255, 255);
   box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.44);
   position: absolute;
@@ -35,8 +35,9 @@ nav {
 .logo-and-text {
   display: flex;
   align-items: center;
-  font-size: 1.4rem;
-  gap: 1rem;
+  font-size: 1.1rem;
+  font-weight: 200;
+  gap: 0.5rem;
   cursor: pointer;
   color: white;
 }
@@ -78,8 +79,7 @@ nav {
   text-decoration: underline;
 }
 
-@media(max-width:768px) {
-
+@media (max-width: 768px) {
   .bar {
     display: block;
     width: 25px;
@@ -117,7 +117,7 @@ nav {
     left: 100%;
     top: 115px;
     flex-direction: column;
-    background-color: $yellow;
+    background-color: $mid-blue;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -126,12 +126,12 @@ nav {
   }
 
   .links-list.active {
-    left: 0;
+    left: 60%;
   }
 
   .link {
     display: flex;
-    color: $dark-gray;
+    color: white;
   }
 
   .links-list li {

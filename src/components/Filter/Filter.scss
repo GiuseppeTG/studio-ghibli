@@ -1,0 +1,48 @@
+@import '../../scssVariables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: $mid-blue;
+  margin: 3rem auto 1rem auto;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.filter-instruction {
+  color: rgba(255, 255, 255, 0.829);
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.filter-input {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  font-family: $poppins;
+  color: white;
+  font-size: 1rem;
+  font-weight: 200;
+  outline: none;
+  cursor: pointer;
+  width: 190px;
+  background-color: $light-blue;
+}
+
+@media (max-width: 768px) {
+  .filter-instruction {
+    font-size: 0.8rem;
+  }
+
+  .filter-input {
+    font-size: 0.8rem;
+  }
+}

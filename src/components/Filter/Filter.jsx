@@ -9,8 +9,6 @@ export default function Filter({
 }) {
   const filterInput = useRef();
 
-  console.log(`active director: ${activeDirector}`);
-
   useEffect(() => {
     if (activeDirector === 'All Movies') {
       setFiltered(films);
@@ -22,17 +20,18 @@ export default function Filter({
   }, [activeDirector]);
 
   return (
-
-    <select name="director" ref={filterInput} onLoad={() => setActiveDirector(filterInput.current.value)} onChange={() => setActiveDirector(filterInput.current.value)} id="filteri">
-      <option value="All Movies">All Movies</option>
-      <option value="Hayao Miyazaki">Hayao Miyazaki</option>
-      <option value="Isao Takahata">Isao Takahata</option>
-      <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
-      <option value="Hiroyuki Morita">Hiroyuki Morita</option>
-      <option value="Gorō Miyazaki">Gorō Miyazaki</option>
-      <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
-      <option value="Michaël Dudok de Wit">Michaël Dudok de Wit</option>
-    </select>
-
+    <div className="filter-container">
+      <p className="filter-instruction">Filter by director</p>
+      <select className="filter-input" ref={filterInput} onChange={() => setActiveDirector(filterInput.current.value)} id="filteri">
+        <option value="All Movies">All Movies</option>
+        <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+        <option value="Isao Takahata">Isao Takahata</option>
+        <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+        <option value="Hiroyuki Morita">Hiroyuki Morita</option>
+        <option value="Gorō Miyazaki">Gorō Miyazaki</option>
+        <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
+        <option value="Michaël Dudok de Wit">Michaël Dudok de Wit</option>
+      </select>
+    </div>
   );
 }

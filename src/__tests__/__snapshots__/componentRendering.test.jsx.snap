@@ -1,0 +1,1149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing component rednering propperly renders App component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="navbar"
+      >
+        <a
+          aria-current="page"
+          class="logo-text active"
+          href="/"
+        >
+          <div
+            class="logo-and-text"
+          >
+            <img
+              alt="logo"
+              class="totoro-icon"
+              src="totoroIcon.png"
+            />
+            <p>
+              STUDIO GHIBLI
+            </p>
+          </div>
+        </a>
+        <ul
+          class="links-list"
+        >
+          <li>
+            <a
+              aria-current="page"
+              class="link active"
+              href="/"
+            >
+              HOME
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              href="/people"
+            >
+              PEOPLE
+            </a>
+          </li>
+        </ul>
+        <button
+          class="hamburger"
+          type="button"
+        >
+          <span
+            class="bar"
+          />
+          <span
+            class="bar"
+          />
+          <span
+            class="bar"
+          />
+        </button>
+      </nav>
+      <div
+        class="main"
+      >
+        <div
+          class="homepage"
+        >
+          <div
+            class="welcome-container"
+          >
+            <img
+              alt="studio ghibli logo"
+              src="title-logo.png"
+            />
+            <div
+              class="main-text"
+            >
+              <p
+                class="app-descriprion"
+              >
+                Here you can find all Studio Ghibli info about their films.
+              </p>
+            </div>
+          </div>
+          <div
+            class="filter-container"
+          >
+            <p
+              class="filter-instruction"
+            >
+              Filter by director
+            </p>
+            <select
+              class="filter-input"
+              id="filteri"
+            >
+              <option
+                value="All Movies"
+              >
+                All Movies
+              </option>
+              <option
+                value="Hayao Miyazaki"
+              >
+                Hayao Miyazaki
+              </option>
+              <option
+                value="Isao Takahata"
+              >
+                Isao Takahata
+              </option>
+              <option
+                value="Yoshifumi Kondō"
+              >
+                Yoshifumi Kondō
+              </option>
+              <option
+                value="Hiroyuki Morita"
+              >
+                Hiroyuki Morita
+              </option>
+              <option
+                value="Gorō Miyazaki"
+              >
+                Gorō Miyazaki
+              </option>
+              <option
+                value="Hiromasa Yonebayashi"
+              >
+                Hiromasa Yonebayashi
+              </option>
+              <option
+                value="Michaël Dudok de Wit"
+              >
+                Michaël Dudok de Wit
+              </option>
+            </select>
+          </div>
+          <p
+            class="home-results"
+          >
+            Showing 0 results
+          </p>
+          <div
+            class="film-list-container"
+          >
+            <ul
+              class="film-list"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="navbar"
+    >
+      <a
+        aria-current="page"
+        class="logo-text active"
+        href="/"
+      >
+        <div
+          class="logo-and-text"
+        >
+          <img
+            alt="logo"
+            class="totoro-icon"
+            src="totoroIcon.png"
+          />
+          <p>
+            STUDIO GHIBLI
+          </p>
+        </div>
+      </a>
+      <ul
+        class="links-list"
+      >
+        <li>
+          <a
+            aria-current="page"
+            class="link active"
+            href="/"
+          >
+            HOME
+          </a>
+        </li>
+        <li>
+          <a
+            class="link"
+            href="/people"
+          >
+            PEOPLE
+          </a>
+        </li>
+      </ul>
+      <button
+        class="hamburger"
+        type="button"
+      >
+        <span
+          class="bar"
+        />
+        <span
+          class="bar"
+        />
+        <span
+          class="bar"
+        />
+      </button>
+    </nav>
+    <div
+      class="main"
+    >
+      <div
+        class="homepage"
+      >
+        <div
+          class="welcome-container"
+        >
+          <img
+            alt="studio ghibli logo"
+            src="title-logo.png"
+          />
+          <div
+            class="main-text"
+          >
+            <p
+              class="app-descriprion"
+            >
+              Here you can find all Studio Ghibli info about their films.
+            </p>
+          </div>
+        </div>
+        <div
+          class="filter-container"
+        >
+          <p
+            class="filter-instruction"
+          >
+            Filter by director
+          </p>
+          <select
+            class="filter-input"
+            id="filteri"
+          >
+            <option
+              value="All Movies"
+            >
+              All Movies
+            </option>
+            <option
+              value="Hayao Miyazaki"
+            >
+              Hayao Miyazaki
+            </option>
+            <option
+              value="Isao Takahata"
+            >
+              Isao Takahata
+            </option>
+            <option
+              value="Yoshifumi Kondō"
+            >
+              Yoshifumi Kondō
+            </option>
+            <option
+              value="Hiroyuki Morita"
+            >
+              Hiroyuki Morita
+            </option>
+            <option
+              value="Gorō Miyazaki"
+            >
+              Gorō Miyazaki
+            </option>
+            <option
+              value="Hiromasa Yonebayashi"
+            >
+              Hiromasa Yonebayashi
+            </option>
+            <option
+              value="Michaël Dudok de Wit"
+            >
+              Michaël Dudok de Wit
+            </option>
+          </select>
+        </div>
+        <p
+          class="home-results"
+        >
+          Showing 0 results
+        </p>
+        <div
+          class="film-list-container"
+        >
+          <ul
+            class="film-list"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing component rednering propperly renders Home component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="homepage"
+      >
+        <div
+          class="welcome-container"
+        >
+          <img
+            alt="studio ghibli logo"
+            src="title-logo.png"
+          />
+          <div
+            class="main-text"
+          >
+            <p
+              class="app-descriprion"
+            >
+              Here you can find all Studio Ghibli info about their films.
+            </p>
+          </div>
+        </div>
+        <div
+          class="filter-container"
+        >
+          <p
+            class="filter-instruction"
+          >
+            Filter by director
+          </p>
+          <select
+            class="filter-input"
+            id="filteri"
+          >
+            <option
+              value="All Movies"
+            >
+              All Movies
+            </option>
+            <option
+              value="Hayao Miyazaki"
+            >
+              Hayao Miyazaki
+            </option>
+            <option
+              value="Isao Takahata"
+            >
+              Isao Takahata
+            </option>
+            <option
+              value="Yoshifumi Kondō"
+            >
+              Yoshifumi Kondō
+            </option>
+            <option
+              value="Hiroyuki Morita"
+            >
+              Hiroyuki Morita
+            </option>
+            <option
+              value="Gorō Miyazaki"
+            >
+              Gorō Miyazaki
+            </option>
+            <option
+              value="Hiromasa Yonebayashi"
+            >
+              Hiromasa Yonebayashi
+            </option>
+            <option
+              value="Michaël Dudok de Wit"
+            >
+              Michaël Dudok de Wit
+            </option>
+          </select>
+        </div>
+        <p
+          class="home-results"
+        >
+          Showing 0 results
+        </p>
+        <div
+          class="film-list-container"
+        >
+          <ul
+            class="film-list"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="homepage"
+    >
+      <div
+        class="welcome-container"
+      >
+        <img
+          alt="studio ghibli logo"
+          src="title-logo.png"
+        />
+        <div
+          class="main-text"
+        >
+          <p
+            class="app-descriprion"
+          >
+            Here you can find all Studio Ghibli info about their films.
+          </p>
+        </div>
+      </div>
+      <div
+        class="filter-container"
+      >
+        <p
+          class="filter-instruction"
+        >
+          Filter by director
+        </p>
+        <select
+          class="filter-input"
+          id="filteri"
+        >
+          <option
+            value="All Movies"
+          >
+            All Movies
+          </option>
+          <option
+            value="Hayao Miyazaki"
+          >
+            Hayao Miyazaki
+          </option>
+          <option
+            value="Isao Takahata"
+          >
+            Isao Takahata
+          </option>
+          <option
+            value="Yoshifumi Kondō"
+          >
+            Yoshifumi Kondō
+          </option>
+          <option
+            value="Hiroyuki Morita"
+          >
+            Hiroyuki Morita
+          </option>
+          <option
+            value="Gorō Miyazaki"
+          >
+            Gorō Miyazaki
+          </option>
+          <option
+            value="Hiromasa Yonebayashi"
+          >
+            Hiromasa Yonebayashi
+          </option>
+          <option
+            value="Michaël Dudok de Wit"
+          >
+            Michaël Dudok de Wit
+          </option>
+        </select>
+      </div>
+      <p
+        class="home-results"
+      >
+        Showing 0 results
+      </p>
+      <div
+        class="film-list-container"
+      >
+        <ul
+          class="film-list"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing component rednering propperly renders HomePage component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="homepage"
+      >
+        <div
+          class="welcome-container"
+        >
+          <img
+            alt="studio ghibli logo"
+            src="title-logo.png"
+          />
+          <div
+            class="main-text"
+          >
+            <p
+              class="app-descriprion"
+            >
+              Here you can find all Studio Ghibli info about their films.
+            </p>
+          </div>
+        </div>
+        <div
+          class="filter-container"
+        >
+          <p
+            class="filter-instruction"
+          >
+            Filter by director
+          </p>
+          <select
+            class="filter-input"
+            id="filteri"
+          >
+            <option
+              value="All Movies"
+            >
+              All Movies
+            </option>
+            <option
+              value="Hayao Miyazaki"
+            >
+              Hayao Miyazaki
+            </option>
+            <option
+              value="Isao Takahata"
+            >
+              Isao Takahata
+            </option>
+            <option
+              value="Yoshifumi Kondō"
+            >
+              Yoshifumi Kondō
+            </option>
+            <option
+              value="Hiroyuki Morita"
+            >
+              Hiroyuki Morita
+            </option>
+            <option
+              value="Gorō Miyazaki"
+            >
+              Gorō Miyazaki
+            </option>
+            <option
+              value="Hiromasa Yonebayashi"
+            >
+              Hiromasa Yonebayashi
+            </option>
+            <option
+              value="Michaël Dudok de Wit"
+            >
+              Michaël Dudok de Wit
+            </option>
+          </select>
+        </div>
+        <p
+          class="home-results"
+        >
+          Showing 0 results
+        </p>
+        <div
+          class="film-list-container"
+        >
+          <ul
+            class="film-list"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="homepage"
+    >
+      <div
+        class="welcome-container"
+      >
+        <img
+          alt="studio ghibli logo"
+          src="title-logo.png"
+        />
+        <div
+          class="main-text"
+        >
+          <p
+            class="app-descriprion"
+          >
+            Here you can find all Studio Ghibli info about their films.
+          </p>
+        </div>
+      </div>
+      <div
+        class="filter-container"
+      >
+        <p
+          class="filter-instruction"
+        >
+          Filter by director
+        </p>
+        <select
+          class="filter-input"
+          id="filteri"
+        >
+          <option
+            value="All Movies"
+          >
+            All Movies
+          </option>
+          <option
+            value="Hayao Miyazaki"
+          >
+            Hayao Miyazaki
+          </option>
+          <option
+            value="Isao Takahata"
+          >
+            Isao Takahata
+          </option>
+          <option
+            value="Yoshifumi Kondō"
+          >
+            Yoshifumi Kondō
+          </option>
+          <option
+            value="Hiroyuki Morita"
+          >
+            Hiroyuki Morita
+          </option>
+          <option
+            value="Gorō Miyazaki"
+          >
+            Gorō Miyazaki
+          </option>
+          <option
+            value="Hiromasa Yonebayashi"
+          >
+            Hiromasa Yonebayashi
+          </option>
+          <option
+            value="Michaël Dudok de Wit"
+          >
+            Michaël Dudok de Wit
+          </option>
+        </select>
+      </div>
+      <p
+        class="home-results"
+      >
+        Showing 0 results
+      </p>
+      <div
+        class="film-list-container"
+      >
+        <ul
+          class="film-list"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing component rednering propperly renders Navbar component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="navbar"
+      >
+        <a
+          aria-current="page"
+          class="logo-text active"
+          href="/"
+        >
+          <div
+            class="logo-and-text"
+          >
+            <img
+              alt="logo"
+              class="totoro-icon"
+              src="totoroIcon.png"
+            />
+            <p>
+              STUDIO GHIBLI
+            </p>
+          </div>
+        </a>
+        <ul
+          class="links-list"
+        >
+          <li>
+            <a
+              aria-current="page"
+              class="link active"
+              href="/"
+            >
+              HOME
+            </a>
+          </li>
+          <li>
+            <a
+              class="link"
+              href="/people"
+            >
+              PEOPLE
+            </a>
+          </li>
+        </ul>
+        <button
+          class="hamburger"
+          type="button"
+        >
+          <span
+            class="bar"
+          />
+          <span
+            class="bar"
+          />
+          <span
+            class="bar"
+          />
+        </button>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="navbar"
+    >
+      <a
+        aria-current="page"
+        class="logo-text active"
+        href="/"
+      >
+        <div
+          class="logo-and-text"
+        >
+          <img
+            alt="logo"
+            class="totoro-icon"
+            src="totoroIcon.png"
+          />
+          <p>
+            STUDIO GHIBLI
+          </p>
+        </div>
+      </a>
+      <ul
+        class="links-list"
+      >
+        <li>
+          <a
+            aria-current="page"
+            class="link active"
+            href="/"
+          >
+            HOME
+          </a>
+        </li>
+        <li>
+          <a
+            class="link"
+            href="/people"
+          >
+            PEOPLE
+          </a>
+        </li>
+      </ul>
+      <button
+        class="hamburger"
+        type="button"
+      >
+        <span
+          class="bar"
+        />
+        <span
+          class="bar"
+        />
+        <span
+          class="bar"
+        />
+      </button>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing component rednering propperly renders PeopleList component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <ul
+        class="people-list"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <ul
+      class="people-list"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing component rednering propperly renders PeoplePage component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <ul
+        class="people-list"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <ul
+      class="people-list"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

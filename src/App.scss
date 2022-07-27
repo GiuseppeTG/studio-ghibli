@@ -2,6 +2,8 @@
 @import './components/Navbar/Navbar.scss';
 @import './components/People/People.scss';
 @import './components/Film/Film.scss';
+@import './components/Filter/Filter.scss';
+@import './components/PeopleList/PeopleList.scss';
 
 * {
   margin: 0;
@@ -10,11 +12,10 @@
 }
 
 :root {
-  background: linear-gradient(45deg, rgb(47, 164, 238), rgb(89, 183, 241));
+  background-color: $light-blue;
 }
 
 .main {
-  border: red solid 1px;
   padding-top: 115px;
   height: 100%;
 }

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import mainImage from '../../images/title-logo.png';
+import { Link } from 'react-router-dom';
 import { getFilms } from '../../redux/films/films';
-import Film from '../Film/Film';
 import Filter from '../Filter/Filter';
+import mainImage from '../../images/title-logo.png';
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -15,12 +15,10 @@ export default function Home() {
     dispatch(getFilms());
   }, []);
 
-  console.log(filtered);
-
   return (
-    <>
+    <div className="homepage">
       <div className="welcome-container">
-        <img src={mainImage} alt="logo and title" />
+        <img src={mainImage} alt="studio ghibli logo" />
         <div className="main-text">
           <p className="app-descriprion">Here you can find all Studio Ghibli info about their films.</p>
         </div>
@@ -31,37 +29,38 @@ export default function Home() {
         setFiltered={setFiltered}
         activeDirector={activeDirector}
         setActiveDirector={setActiveDirector}
+        className="filter-component"
       />
 
+      <p className="home-results">{filtered.length ? `Showing ${filtered.length} results` : 'Showing 22 results'}</p>
       <div className="film-list-container">
         <ul className="film-list">
           {filtered.length === 0 && (
 
             films.map((film) => (
-              <Film
+
+              <Link
                 key={film.id}
-                title={film.title}
-                image={film.image}
-                description={film.description}
-                releaseDate={film.release_date}
-              />
+                to={`/films/${film.id}`}
+              >
+                <div className="film-container" style={{ backgroundImage: `url(${film.image})` }} />
+              </Link>
             ))
           )}
           {filtered.length !== 0 && (
 
             filtered.map((film) => (
-              <Film
+              <Link
                 key={film.id}
-                title={film.title}
-                image={film.image}
-                description={film.description}
-                releaseDate={film.release_date}
-              />
+                to={`/films/${film.id}`}
+              >
+                <div className="film-container" style={{ backgroundImage: `url(${film.image})` }} />
+              </Link>
             ))
           )}
 
         </ul>
       </div>
-    </>
+    </div>
   );
 }

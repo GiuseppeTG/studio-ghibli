@@ -33,20 +33,11 @@ export default function Navbar() {
             HOME
           </NavLink>
         </li>
-
-        <li>
-          <NavLink
-            to="/films"
-            className="link"
-          >
-            FILMS
-          </NavLink>
-        </li>
-
         <li>
           <NavLink
             to="/people"
             className="link"
+            onClick={handleClick}
           >
             PEOPLE
           </NavLink>
