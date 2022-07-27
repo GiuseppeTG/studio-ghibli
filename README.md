@@ -2,7 +2,7 @@
 
 # Studio Ghibli Movies
 
-> In this App I used Studio Ghibli API to render a list of movies that can be filtered by director name. You can see the details of each movie when you click on them. It also has a list of human characters with a short description and link to their movie.
+> In this App, I used Studio Ghibli API to render a list of movies that can be filtered by director name. You can see the details of each movie when you click on them. It also has a list of human characters with a short description and a link to their movie.
 
 ## Built With
 
@@ -13,6 +13,10 @@
 ## Live Demo
 
 [Live Demo Link](https://glittering-meringue-ba1533.netlify.app)
+
+## Video
+
+[Loom](https://www.loom.com/share/3f1ce4d8168b46828907caf0c062bdbc)
 
 
 ## Getting Started
