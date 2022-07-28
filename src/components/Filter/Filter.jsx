@@ -24,7 +24,7 @@ export default function Filter({
       <p className="filter-instruction">Filter by director</p>
       <select className="filter-input" ref={filterInput} onChange={() => setActiveDirector(filterInput.current.value)} id="filteri">
         <option value="All Movies">All Movies</option>
-        <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+        <option name="Hayao Miyazaki" value="Hayao Miyazaki">Hayao Miyazaki</option>
         <option value="Isao Takahata">Isao Takahata</option>
         <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
         <option value="Hiroyuki Morita">Hiroyuki Morita</option>
