@@ -38,24 +38,28 @@ export default function Home() {
           {filtered.length === 0 && (
 
             films.map((film) => (
+              <li key={film.id} data-testid="listed-movie">
 
-              <Link
-                key={film.id}
-                to={`/films/${film.id}`}
-              >
-                <div className="film-container" style={{ backgroundImage: `url(${film.image})` }} />
-              </Link>
+                <Link
+                  to={`/films/${film.id}`}
+                >
+                  <div className="film-container" style={{ backgroundImage: `url(${film.image})` }} />
+                </Link>
+              </li>
             ))
           )}
           {filtered.length !== 0 && (
 
             filtered.map((film) => (
-              <Link
-                key={film.id}
-                to={`/films/${film.id}`}
-              >
-                <div className="film-container" style={{ backgroundImage: `url(${film.image})` }} />
-              </Link>
+
+              <li key={film.id} data-testid="listed-movie">
+                <Link
+                  key={film.id}
+                  to={`/films/${film.id}`}
+                >
+                  <div className="film-container" style={{ backgroundImage: `url(${film.image})` }} />
+                </Link>
+              </li>
             ))
           )}
 

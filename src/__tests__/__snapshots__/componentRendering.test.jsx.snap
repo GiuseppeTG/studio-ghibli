@@ -103,6 +103,7 @@ Object {
                 All Movies
               </option>
               <option
+                name="Hayao Miyazaki"
                 value="Hayao Miyazaki"
               >
                 Hayao Miyazaki
@@ -142,7 +143,7 @@ Object {
           <p
             class="home-results"
           >
-            Showing 0 results
+            Showing 22 results
           </p>
           <div
             class="film-list-container"
@@ -254,6 +255,7 @@ Object {
               All Movies
             </option>
             <option
+              name="Hayao Miyazaki"
               value="Hayao Miyazaki"
             >
               Hayao Miyazaki
@@ -293,7 +295,7 @@ Object {
         <p
           class="home-results"
         >
-          Showing 0 results
+          Showing 22 results
         </p>
         <div
           class="film-list-container"
@@ -402,6 +404,7 @@ Object {
               All Movies
             </option>
             <option
+              name="Hayao Miyazaki"
               value="Hayao Miyazaki"
             >
               Hayao Miyazaki
@@ -441,7 +444,7 @@ Object {
         <p
           class="home-results"
         >
-          Showing 0 results
+          Showing 22 results
         </p>
         <div
           class="film-list-container"
@@ -492,6 +495,7 @@ Object {
             All Movies
           </option>
           <option
+            name="Hayao Miyazaki"
             value="Hayao Miyazaki"
           >
             Hayao Miyazaki
@@ -531,7 +535,7 @@ Object {
       <p
         class="home-results"
       >
-        Showing 0 results
+        Showing 22 results
       </p>
       <div
         class="film-list-container"
@@ -639,6 +643,7 @@ Object {
               All Movies
             </option>
             <option
+              name="Hayao Miyazaki"
               value="Hayao Miyazaki"
             >
               Hayao Miyazaki
@@ -678,7 +683,7 @@ Object {
         <p
           class="home-results"
         >
-          Showing 0 results
+          Showing 22 results
         </p>
         <div
           class="film-list-container"
@@ -729,6 +734,7 @@ Object {
             All Movies
           </option>
           <option
+            name="Hayao Miyazaki"
             value="Hayao Miyazaki"
           >
             Hayao Miyazaki
@@ -768,7 +774,7 @@ Object {
       <p
         class="home-results"
       >
-        Showing 0 results
+        Showing 22 results
       </p>
       <div
         class="film-list-container"
@@ -1015,15 +1021,33 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <ul
-        class="people-list"
-      />
+      <section
+        class="people-section"
+      >
+        <h2
+          class="people-title"
+        >
+          Human Characters
+        </h2>
+        <ul
+          class="people-list"
+        />
+      </section>
     </div>
   </body>,
   "container": <div>
-    <ul
-      class="people-list"
-    />
+    <section
+      class="people-section"
+    >
+      <h2
+        class="people-title"
+      >
+        Human Characters
+      </h2>
+      <ul
+        class="people-list"
+      />
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -1084,15 +1108,33 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <ul
-        class="people-list"
-      />
+      <section
+        class="people-section"
+      >
+        <h2
+          class="people-title"
+        >
+          Human Characters
+        </h2>
+        <ul
+          class="people-list"
+        />
+      </section>
     </div>
   </body>,
   "container": <div>
-    <ul
-      class="people-list"
-    />
+    <section
+      class="people-section"
+    >
+      <h2
+        class="people-title"
+      >
+        Human Characters
+      </h2>
+      <ul
+        class="people-list"
+      />
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
